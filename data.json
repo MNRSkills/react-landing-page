@@ -1,0 +1,114 @@
+[
+  {
+    "products": [
+      {
+        "id": 1,
+        "name": "Wireless Headphones",
+        "category": "Electronics",
+        "price": 89.99,
+        "inStock": true,
+        "rating": 4.5,
+        "description": "Comfortable wireless headphones with noise cancellation and a long-lasting battery.",
+        "imageUrl": "https://example.com/images/wireless-headphones.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Smartwatch",
+        "category": "Electronics",
+        "price": 199.99,
+        "inStock": true,
+        "rating": 4.8,
+        "description": "Feature-packed smartwatch with fitness tracking and customizable watch faces.",
+        "imageUrl": "https://example.com/images/smartwatch.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Bluetooth Speaker",
+        "category": "Electronics",
+        "price": 59.99,
+        "inStock": false,
+        "rating": 4.2,
+        "description": "Portable Bluetooth speaker with excellent sound quality and a rugged design.",
+        "imageUrl": "https://example.com/images/bluetooth-speaker.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Coffee Maker",
+        "category": "Appliances",
+        "price": 49.99,
+        "inStock": true,
+        "rating": 4.0,
+        "description": "Easy-to-use coffee maker with a programmable timer and a large capacity.",
+        "imageUrl": "https://example.com/images/coffee-maker.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Yoga Mat",
+        "category": "Fitness",
+        "price": 29.99,
+        "inStock": true,
+        "rating": 4.7,
+        "description": "Durable yoga mat with a non-slip surface and extra cushioning.",
+        "imageUrl": "https://example.com/images/yoga-mat.jpg"
+      }
+    ]
+  },
+  {
+    "blog": [
+      {
+        "id": 1,
+        "title": "Understanding React State: A Beginner's Guide",
+        "author": "John Doe",
+        "date": "2024-09-05",
+        "content": "React state can be confusing when you're just starting out. In this post, we'll dive into the basics of state, including how to use the useState hook and how state interacts with components.",
+        "tags": ["React", "JavaScript", "Web Development", "State Management"],
+        "comments": [
+          {
+            "id": 101,
+            "user": "Jane Smith",
+            "date": "2024-09-06",
+            "comment": "Great post! Helped me understand how state works in React."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Optimizing React Performance with useMemo and useCallback",
+        "author": "Alice Johnson",
+        "date": "2024-08-25",
+        "content": "As your React app grows, performance issues can creep in. In this post, we explore how the useMemo and useCallback hooks can help you optimize rendering performance.",
+        "tags": ["React", "Performance", "useMemo", "useCallback"],
+        "comments": [
+          {
+            "id": 102,
+            "user": "Bob Williams",
+            "date": "2024-08-26",
+            "comment": "This post was really helpful! My app runs much smoother now."
+          },
+          {
+            "id": 103,
+            "user": "Emily Green",
+            "date": "2024-08-27",
+            "comment": "Thanks for the tips, Alice! Looking forward to more posts like this."
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "What's New in React 18?",
+        "author": "Michael Brown",
+        "date": "2024-07-15",
+        "content": "React 18 brings exciting new features like automatic batching, concurrent rendering, and more. In this post, we’ll take a look at what's new and how you can start using these features today.",
+        "tags": ["React", "React 18", "New Features", "JavaScript"],
+        "comments": [
+          {
+            "id": 104,
+            "user": "Sarah Lee",
+            "date": "2024-07-16",
+            "comment": "Can't wait to try out the new features in React 18!"
+          }
+        ]
+      }
+    ]
+  }
+]

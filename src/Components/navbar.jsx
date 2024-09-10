@@ -6,7 +6,7 @@
 
 // I am installing Reach Router here for the first time.
 
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import Button from "./button";
 
 const Navbar = () => {
@@ -15,29 +15,31 @@ const Navbar = () => {
       <div className="p-10 ">Logo</div>
       <ul className="flex justify-center items-center">
         <li className="mx-auto px-10">
-          <Link to="/" className="text-2xl text-grey">
+          <NavLink to="/overview" className="text-2xl text-grey">
             Overview
-          </Link>
+          </NavLink>
         </li>
         <li className="mx-auto px-10">
-          <Link to="/example-page" className="text-2xl text-grey">
+          <NavLink to="/example-page" className="text-2xl text-grey">
             Example
-          </Link>
+          </NavLink>
         </li>
         <li className="mx-auto px-10">
-          <Link to="/Tour" className="text-2xl text-grey">
+          <NavLink to="/Tour" className="text-2xl text-grey">
             Tour
-          </Link>
+          </NavLink>
         </li>
         <li className="mx-auto px-10">
-          <Link to="/Blog" className="text-2xl text-grey">
+          <NavLink to="/Blog" className="text-2xl text-grey">
             Blog
-          </Link>
+          </NavLink>
         </li>
-       
       </ul>
       <div className="">
-        <Button className="className " />
+        <Button>
+          <h1>Hi there</h1>
+          <h2>Click here</h2>
+        </Button>
       </div>
     </nav>
   );

@@ -2,16 +2,19 @@
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 
-
-import './App.css'
-import Navbar from "./Components/navbar"
+import "./App.css";
+import Product from "./api/product"
+import Header from "./Components/header"
 
 function Home() {
-  return (<>
-    <header>
-    <Navbar/>
+  return (
+    <>
+      <header>
+        <Header/>
 
-    </header>
-  </>)
+        <Product className={"Props"} />
+      </header>
+    </>
+  );
 }
-export default Home
+export default Home;

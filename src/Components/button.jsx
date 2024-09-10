@@ -1,10 +1,8 @@
+/* eslint-disable react/prop-types */
 
-
-const Button = ( props ) => {
-    console.log(props)
-  return (
-    <button className="bg-cyan rounded-xl px-5">Download</button>
-  )
-}
+const Button = ({ children }) => {
+  console.log(children);
+  return <button className="bg-cyan rounded-xl px-5">{children}</button>;
+};
 
 export default Button;
